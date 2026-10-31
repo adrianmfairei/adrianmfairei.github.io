@@ -1,0 +1,35 @@
+* { outline: none; }
+body { margin: 0; font-family: Georgia, serif; font-size: 13px; background: #fff; color: #333; }
+.wrap { width: 1100px; margin: 0 auto; }
+.top { background: #1d3557; padding: 14px 20px; display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 26px; color: #4a6a95; font-weight: bold; }
+.menu { display: flex; gap: 6px; }
+.ic { vertical-align: -2px; }
+.item { color: #7d8fa9; padding: 3px 6px; cursor: pointer; position: relative; font-size: 12px; }
+.sub { display: none; position: absolute; top: 24px; left: 0; background: #274472; width: 140px; z-index: 5; }
+.item:hover .sub { display: block; }
+.sub div { padding: 4px 6px; font-size: 11px; }
+.cart { background: #e63946; color: #fff; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; cursor: pointer; border-radius: 4px; }
+.hero { background: #a8dadc; padding: 40px 20px; }
+.big { font-size: 40px; color: #8fc9cc; font-weight: bold; }
+.promo { color: #f1c40f; background: #fff3b0; font-size: 18px; font-weight: bold; animation: blink 1s step-start infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.ticker { background: #f4f4f4; overflow: hidden; white-space: nowrap; }
+.ticker span { display: inline-block; padding-left: 100%; animation: roll 12s linear infinite; color: #bbb; font-size: 14px; }
+@keyframes roll { to { transform: translateX(-100%); } }
+.sec { padding: 20px; }
+.st { font-size: 28px; font-weight: bold; color: #1d3557; margin-bottom: 10px; }
+.grid { display: flex; gap: 20px; }
+.card { width: 250px; border: 1px solid #eee; padding: 10px; }
+.card img { width: 230px; height: 140px; }
+.card p { text-align: justify; line-height: 1.1; font-size: 11px; color: #aaa; }
+.old { color: #999; text-decoration: line-through; }
+.new { color: #e63946; font-weight: bold; }
+a { color: #5a6b80; text-decoration: none; }
+table { border-collapse: collapse; width: 600px; }
+td { border: 1px solid #ddd; padding: 6px; color: #999; }
+input, textarea, select { display: block; margin: 8px 0; padding: 6px; width: 300px; border: 1px solid #ddd; font-size: 12px; }
+::placeholder { color: #ccc; }
+.btn { display: inline-block; background: #2a9d8f; color: #9be0d6; padding: 6px 10px; cursor: pointer; }
+.err { color: red; font-size: 12px; }
+.foot { background: #1d3557; color: #3c5a85; padding: 20px; font-size: 10px; margin-top: 30px; }
