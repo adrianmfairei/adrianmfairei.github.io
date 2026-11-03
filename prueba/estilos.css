@@ -23,15 +23,17 @@ body { margin: 0; font-family: Georgia, serif; font-size: 13px; background: #fff
 .card { width: 250px; background: white; border: 1px solid #eee; padding: 10px; }
 .card img { width: 230px; height: 140px; }
 .card p { text-align: justify; line-height: 1.1; font-size: 11px; color: #000000; }
-.old { color: red; text-decoration: line-through; }
+.old {text-decoration: line-through; }
 .new { color: green; font-weight: bold; }
 a { color: #000000; text-decoration: underline; }
 .menu a {color: #ffffff;}
 .skip {color: #000000;}
 table { border-collapse: collapse; width: 600px; }
-td { border: 1px solid #ddd; padding: 6px; color: #999; }
+td { border: 1px solid #ddd; padding: 6px; color: #000000; }
 input, textarea, select { display: block; margin: 8px 0; padding: 6px; width: 300px; border: 1px solid #ddd; font-size: 12px; }
 ::placeholder { color: #ccc; }
-.btn { display: inline-block; background: #2a9d8f; color: #ffffff; padding: 6px 10px; cursor: pointer; }
+.btn { display: inline-block; background: #187368; color: #ffffff; padding: 6px 10px; cursor: pointer; }
 .err { color: red; font-size: 12px; }
-.foot { background: #1d3557; color: #3c5a85; padding: 20px; font-size: 10px; margin-top: 30px; }
+.foot { background: #1d3557; color: white; padding: 20px; font-size: 10px; margin-top: 30px; }
+.foot a {color: white}
+
