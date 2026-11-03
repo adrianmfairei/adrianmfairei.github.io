@@ -16,6 +16,7 @@ body { margin: 0; font-family: Georgia, serif; font-size: 13px; background: #fff
 @keyframes blink { 50% { opacity: 0; } }
 .ticker { background: #f4f4f4; overflow: hidden; white-space: nowrap; }
 .ticker span { display: inline-block; padding-left: 100%; animation: roll 12s linear infinite; color: #bbb; font-size: 14px; }
+.ticker.paused span { animation-play-state: paused; }  /* botón «Pausar animación» */
 @keyframes roll { to { transform: translateX(-100%); } }
 .sec { padding: 20px; }
 .st { font-size: 28px; font-weight: bold; color: #1d3557; margin-bottom: 10px; }
