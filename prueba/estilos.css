@@ -116,6 +116,10 @@ body {
 	font-size: 14px; 
 }
 
+.ticker.paused span { 
+	animation-play-state: paused; 
+}
+
 @keyframes roll{ to { transform: translateX(-100%); } }
 
 .sec { padding: 20px; }
