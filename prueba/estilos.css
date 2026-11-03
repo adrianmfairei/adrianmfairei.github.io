@@ -22,10 +22,12 @@ body { margin: 0; font-family: Georgia, serif; font-size: 13px; background: #fff
 .grid { display: flex; gap: 20px; }
 .card { width: 250px; border: 1px solid #eee; padding: 10px; }
 .card img { width: 230px; height: 140px; }
-.card p { text-align: justify; line-height: 1.1; font-size: 11px; color: #aaa; }
+.card p { text-align: justify; line-height: 1.1; font-size: 11px; color: #000000; }
 .old { color: #999; text-decoration: line-through; }
 .new { color: #e63946; font-weight: bold; }
-a { color: #ffffff; text-decoration: none; }
+a { color: #000000; text-decoration: none; }
+.menu a {color: #ffffff;}
+.skip {color: #000000;}
 table { border-collapse: collapse; width: 600px; }
 td { border: 1px solid #ddd; padding: 6px; color: #999; }
 input, textarea, select { display: block; margin: 8px 0; padding: 6px; width: 300px; border: 1px solid #ddd; font-size: 12px; }
